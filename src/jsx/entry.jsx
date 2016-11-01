@@ -1,12 +1,19 @@
 /* global document */
 
-const AceEditor = require('react-ace'); 
-const brace = require('brace');
-const React = require('react');
-const ReactDOM = require('react-dom');
+import AceEditor from 'react-ace';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import 'brace/mode/java';
+import 'brace/mode/javascript';
+
+import 'brace/theme/github';
+import 'brace/theme/monokai';
+import 'brace/theme/solarized_light';
+import 'brace/ext/language_tools';
 
 function onChange(newValue) {
-  console.log('change', newValue);
+  console.log('onChange fired:\n', newValue); // eslint-disable-line no-console
 }
 
 ReactDOM.render(
