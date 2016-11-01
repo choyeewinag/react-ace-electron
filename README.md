@@ -22,6 +22,8 @@ Install node modules
 npm install
 ```
 
+# Running
+
 Run dev server
 
 ```shell
@@ -35,3 +37,7 @@ npm install -g electron
 ```
 
 (in another console) Run Electron
+
+```shell
+electron .\src\js\main.js
+```
