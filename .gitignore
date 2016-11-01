@@ -1,0 +1,6 @@
+# various editor stuff 
+.vs
+.idea
+
+# node stuff
+node_modules
