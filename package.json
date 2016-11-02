@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "dev": "webpack-dev-server --config ./webpack.config.development.js",
+    "app": "electron .\\src\\js\\main.js",
     "lint": "eslint -c ./.eslintrc.js ./src/js/** ./src/jsx/**"
   },
   "keywords": [
